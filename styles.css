@@ -1,0 +1,19 @@
+.container {
+  max-width: 1140px;
+}
+
+.profile-image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-img {
+  height: 12rem;
+  width: 12rem;
+  object-fit: cover;
+  margin-top: -8.75rem;
+}
+
+.bg-gray {
+  background-color: #f0f2f5;
+}

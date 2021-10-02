@@ -19,12 +19,13 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="styles.css" />
     <title>Facebook Profile</title>
   </head>
-  <body>
+  <body class="bg-light">
     <header>
       <!-- NAVBAR -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-5">
         <div class="container-fluid justify-content-between">
           <!-- Left -->
           <div class="d-flex">
@@ -105,13 +106,14 @@
                   aria-expanded="false"
                 >
                   <img
-                    src="https://mdbootstrap.com/img/Photos/Avatars/img (31).jpg"
+                    src="woman.jpg"
                     class="rounded-circle"
                     height="22"
+                    width="22"
                     alt="my avatar"
                     loading="lazy"
                   />
-                  <strong class="d-none d-sm-block ms-1">John</strong>
+                  <strong class="d-none d-sm-block ms-1">Kelly</strong>
                 </a>
                 <ul
                   class="dropdown-menu"
@@ -226,12 +228,237 @@
       <!-- end NAVBAR -->
     </header>
     <main>
-      <!-- Section: White Background -->
-      <section class="bg-white">
-        <div class="container"></div>
-      </section>
+      <!-- Section: Hero -->
+      <section class="bg-white mb-4 shadow-2">
+        <div class="container">
+          <!-- Images -->
+          <section class="mb-8">
+            <div
+              class="p-5 text-center bg-image shadow-1-strong rounded-bottom"
+              style="background-image: url('ny.jpg'); height: 400px"
+            ></div>
+            <div class="profile-image-container">
+              <img
+                src="woman.jpg"
+                alt="my avatar"
+                class="
+                  profile-img
+                  rounded-circle
+                  shadow-3-strong
+                  position-absolute
+                "
+              />
+            </div>
+          </section>
+          <!-- end Images -->
 
-      <!-- Section Content -->
+          <!-- User Data -->
+          <section class="text-center border-bottom mb-3">
+            <div class="row d-flex justify-content-center">
+              <div class="col-md-6">
+                <h2><strong>Kelly Armstrong</strong></h2>
+                <p class="text-muted">
+                  Just a small town girl loving life in the big city. I ❤ NYC!
+                </p>
+              </div>
+            </div>
+          </section>
+          <!-- end User Data -->
+
+          <!-- Buttons -->
+          <section
+            class="py-3 d-md-flex justify-content-between align-items-center"
+          >
+            <div class="left">
+              <button
+                type="button"
+                class="btn btn-link bg-gray"
+                data-mdb-ripple-color="dark"
+              >
+                Posts
+              </button>
+              <button
+                type="button"
+                class="btn btn-link text-reset"
+                data-mdb-ripple-color="dark"
+              >
+                About
+              </button>
+              <button
+                type="button"
+                class="btn btn-link text-reset"
+                data-mdb-ripple-color="dark"
+              >
+                Friends
+                <small class="text-muted">1509</small>
+              </button>
+              <button
+                type="button"
+                class="btn btn-link text-reset"
+                data-mdb-ripple-color="dark"
+              >
+                Photos
+              </button>
+              <div class="dropdown d-inline-block">
+                <button
+                  class="btn btn-link dropdown-toggle text-reset"
+                  type="button"
+                  id="dropdownMenuButton"
+                  data-mdb-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  More
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="right">
+              <button
+                type="button"
+                class="btn btn-light me-2 px-3"
+                data-mdb-ripple-color="dark"
+              >
+                <i class="fas fa-edit me-1"></i> Edit Profile
+              </button>
+              <button
+                type="button"
+                class="btn btn-light me-2 px-3"
+                data-mdb-ripple-color="dark"
+              >
+                <i class="fas fa-eye"></i>
+              </button>
+              <button
+                type="button"
+                class="btn btn-light me-2 px-3"
+                data-mdb-ripple-color="dark"
+              >
+                <i class="fas fa-search"></i>
+              </button>
+              <button
+                type="button"
+                class="btn btn-light px-3"
+                data-mdb-ripple-color="dark"
+              >
+                <i class="fas fa-ellipsis-h"></i>
+              </button>
+            </div>
+          </section>
+          <!-- end Buttons -->
+        </div>
+      </section>
+      <!-- end Section: Hero -->
+      <!-- Section: Content -->
+      <section class="">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5 mb-4 mb-md-0">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title mb-4"><strong>Intro</strong></h5>
+                  <ul class="list-unstyled text-muted">
+                    <li>
+                      <i class="fas fa-briefcase me-3 mb-3"></i> Co-founder at
+                      <a href="#" class="text-reset"
+                        ><strong>Material Design for Bootstrap</strong>
+                      </a>
+                    </li>
+                    <li>
+                      <i class="fas fa-graduation-cap me-3 mb-3"></i>Graduated
+                      from
+                      <a href="#" class="text-reset"
+                        ><strong> Harvard University</strong></a
+                      >
+                    </li>
+                    <li>
+                      <i class="fas fa-home me-3 mb-3"></i>Lives in
+                      <a href="#" class="text-reset"
+                        ><strong>New York, US</strong></a
+                      >
+                    </li>
+                    <li>
+                      <i class="fas fa-rss me-3 mb-3"></i>Followed by
+                      <a href="#" class="text-reset"
+                        ><strong>9259 people</strong></a
+                      >
+                    </li>
+                    <li>
+                      <i class="fas fa-globe me-3 mb-3"></i
+                      ><a href="#" class="text-reset"
+                        ><strong>mdbootstrap.com</strong></a
+                      >
+                    </li>
+                  </ul>
+                  <button
+                    type="button"
+                    class="btn btn-light me-2 mb-4 btn-block"
+                    data-mdb-ripple-color="dark"
+                  >
+                    Edit Details
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-light me-2 mb-4 btn-block"
+                    data-mdb-ripple-color="dark"
+                  >
+                    Add Hobbies
+                  </button>
+                  <div class="lightbox">
+                    <div class="row gx-2">
+                      <div class="col-lg-4 mb-2">
+                        <img
+                          src="empire.jpg"
+                          alt="Lightbox image 1"
+                          class="w-100 shadow-1-strong rounded"
+                          data-img="empire.jpg"
+                        />
+                      </div>
+                      <div class="col-lg-4 mb-2">
+                        <img
+                          src="eiffel.jpg"
+                          alt="Lightbox image 2"
+                          class="w-100 shadow-1-strong rounded"
+                          data-img="eiffel.jpg"
+                        />
+                      </div>
+                      <div class="col-lg-4 mb-2">
+                        <img
+                          src="liberty.jpg"
+                          alt="Lightbox image 3"
+                          class="w-100 shadow-1-strong rounded"
+                          data-img="liberty.jpg"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <button
+                    type="button"
+                    class="btn btn-light me-2 mt-4 btn-block"
+                    data-mdb-ripple-color="dark"
+                  >
+                    Edit Featured
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-7 mb-4 mb-md-0">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+              sequi possimus ab rerum molestiae velit placeat tempora fugiat
+              odio quis totam cumque cupiditate doloremque dolores, tempore sed
+              modi autem quidem eius blanditiis voluptates, accusamus vitae
+              facere est. Earum porro quisquam explicabo ipsum qui eos quidem,
+              dignissimos cumque, quis, beatae dolor?
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end Section: Content -->
     </main>
     <footer></footer>
   </body>
