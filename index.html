@@ -665,18 +665,121 @@
               </div>
               <!-- end Friends -->
             </div>
+            <!-- Right -->
             <div class="col-md-7 mb-4 mb-md-0">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
-              sequi possimus ab rerum molestiae velit placeat tempora fugiat
-              odio quis totam cumque cupiditate doloremque dolores, tempore sed
-              modi autem quidem eius blanditiis voluptates, accusamus vitae
-              facere est. Earum porro quisquam explicabo ipsum qui eos quidem,
-              dignissimos cumque, quis, beatae dolor?
+              <div class="card mb-4">
+                <div class="card-body">
+                  <div class="d-flex justify-content-between mb-4">
+                    <a href="#"
+                      ><img
+                        src="/images/woman.jpg"
+                        alt="my avatar"
+                        style="height: 50px; width: 50px; object-fit: cover"
+                        class="border rounded-circle"
+                    /></a>
+                    <button
+                      type="button"
+                      class="btn btn-light btn-block btn-rounded ms-2"
+                      data-mdb-toggle="modal"
+                      data-mdb-target="#exampleModal"
+                    >
+                      what's on your mind?
+                    </button>
+                  </div>
+                  <hr />
+                  <div class="d-flex justify-content-around">
+                    <button href="#" class="btn btn-link btn-lg">
+                      <i class="fas fa-video fa-lg me-2"></i> Live
+                    </button>
+                    <button href="#" class="btn btn-link btn-lg">
+                      <i class="fas fa-photo-video fa-lg me-2"></i> photo/video
+                    </button>
+                    <button href="#" class="btn btn-link btn-lg">
+                      <i class="fas fa-grin fa-lg me-2"></i> Mood
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- card -->
+              <div class="card mb-4">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                </div>
+              </div>
+
+              <!-- card -->
+              <div class="card mb-4">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
       <!-- end Section: Content -->
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Create post</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-mdb-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-outline mb-4">
+                  <textarea class="form-control" id="modal" rows="4"></textarea>
+                  <label class="form-label" for="modal">Message</label>
+                </div>
+              </form>
+              <div class="d-flex justify-content-between">
+                <div class="left">
+                  <h5>Add to the post</h5>
+                </div>
+                <div class="right">
+                  <a href="#" class="btn btn-link px-3"
+                    ><i class="fas fa-video fa-lg"></i
+                  ></a>
+                  <a href="#" class="btn btn-link px-3"
+                    ><i class="fas fa-photo-video fa-lg"></i
+                  ></a>
+                  <a href="#" class="btn btn-link px-3"
+                    ><i class="fas fa-user-tag fa-lg"></i
+                  ></a>
+                  <a href="#" class="btn btn-link px-3"
+                    ><i class="fas fa-map-marker-alt fa-lg"></i
+                  ></a>
+                  <a href="#" class="btn btn-link px-3"
+                    ><i class="fas fa-grin-tongue-wink fa-lg"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-primary btn-block"
+                data-mdb-dismiss="modal"
+              >
+                post
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
     <footer></footer>
   </body>
