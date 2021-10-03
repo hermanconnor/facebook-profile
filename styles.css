@@ -17,3 +17,7 @@
 .bg-gray {
   background-color: #f0f2f5;
 }
+
+.friend-img {
+  object-fit: cover;
+}
